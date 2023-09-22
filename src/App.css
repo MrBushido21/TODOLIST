@@ -1,0 +1,30 @@
+.Todolist {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.Todolist__buttons {
+  flex: 0 0 auto;
+}
+.Todolist__ul {
+  flex: 1 1 auto;
+}
+.isDone {
+  opacity: 0.5;
+}
+
+.li-span{
+  cursor: pointer;
+}
+
+.title span {
+font-weight: 700;
+} 
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
